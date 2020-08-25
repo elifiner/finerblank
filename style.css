@@ -1,7 +1,6 @@
 /*
  Theme Name: Finer Blank
- description: >-
-   A child theme of the Twenty Sixteen default WordPress theme
+ description: A very simple blank theme for posting articles.
  Author:       Eli Finer
  Template:     twentysixteen
  Version:      1.0.0
@@ -12,6 +11,10 @@ You can add your own CSS here.
 
 Click the help icon above to learn more.
 */
+
+body {
+    color: #444;
+}
 
 .page-header, .widget {
     border-width: 1px;
