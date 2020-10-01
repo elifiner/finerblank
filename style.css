@@ -54,3 +54,16 @@ Click the help icon above to learn more.
     display: none;
 }
 
+
+@media screen and (min-width: 61.5625em) {
+    body:not(.search-results) article:not(.type-page) .entry-content {
+        float: right;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 44.375em) {
+    .entry-content ul, .entry-summary ul, .comment-content ul, .entry-content ol, .entry-summary ol, .comment-content ol {
+        margin-left: 20px;
+    }
+{
