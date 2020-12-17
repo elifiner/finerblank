@@ -54,6 +54,10 @@ Click the help icon above to learn more.
     display: none;
 }
 
+.center {
+    text-align: center;
+}
+
 
 @media screen and (min-width: 61.5625em) {
     body:not(.search-results) article:not(.type-page) .entry-content {
